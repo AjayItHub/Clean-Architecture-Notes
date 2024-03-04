@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T18:49:31.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.1" etag="hwc2sD7QZHKI3Get6T9a" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T20:52:20.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="D6VhiuUEO9ZMH6bPAlMH" version="24.0.1" type="github">
   <diagram name="Page-1" id="xohVsvtXSEpIb4WMQ1DA">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-2" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-3" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="550" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-6" value="" style="verticalLabelPosition=bottom;align=center;outlineConnect=0;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.flow_sensors.flow_nozzle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="35" y="190" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-8" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="30" y="295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-18" value="Scan" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-19" value="Connect" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-20" value="Read / Write" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="170" y="234" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-21" value="Disconnect" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-23" value="Settings" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="194" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-25" value="Firmware" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-26" value="Maintenace Data" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="234" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-27" value="Digital Twin" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="330" y="234" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-28" value="Operations" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="170" y="274" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-31" value="Offline Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="295" width="40" height="65" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
