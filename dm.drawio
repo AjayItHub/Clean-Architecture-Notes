@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T20:52:20.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="D6VhiuUEO9ZMH6bPAlMH" version="24.0.1" type="github">
-  <diagram name="Page-1" id="xohVsvtXSEpIb4WMQ1DA">
-    <mxGraphModel dx="794" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-03-05T14:57:49.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RDrmLQoFRdhauTPqVPNj" version="24.0.1" type="github" pages="4">
+  <diagram name="BLE Device" id="xohVsvtXSEpIb4WMQ1DA">
+    <mxGraphModel dx="1644" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,6 +46,159 @@
         <mxCell id="r-MkJSvTfkIxx8hobe0l-31" value="Offline Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="600" y="295" width="40" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-32" value="&lt;h1 style=&quot;font-size: 14px;&quot;&gt;Configuration can be 1M PHY, 2M PHY, CODED PHY, what else connection parameters we want to use to connect to BLE device&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-33" value="Assuming that Device is Connected, we want to understand type of device&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3B5BFF;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="498" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-34" value="Read device settings" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="528" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-35" value="Assuming device belongs to same tenant as Data Manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="528" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-36" value="Upload Device Metadata to Cloud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="600" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-37" value="Retrieve operations for device from Cloud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="630" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-38" value="Are we adding latency by trying to get operations??" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="630" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-39" value="Operations can be configuration upate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="660" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-40" value="Operations can be firmware upate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="682" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-41" value="Operations can be reboot device" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="712" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-42" value="Assumptino, we don&#39;t reboot gas monitor, only gas station" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="712" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-43" value="Set time on the device" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="742" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-44" value="Can request debug log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="772" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-45" value="Upload all logs that include Alarm Events, Data Log, Gas Operations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="558" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-46" value="Can we apply pending operations during Maintenace Window?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="672" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-47" value="&lt;font color=&quot;#4046ff&quot;&gt;Assuming that Device is saying &quot;Hi&quot; with PAwR&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#59FF9C;" vertex="1" parent="1">
+          <mxGeometry x="15" y="830" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-MkJSvTfkIxx8hobe0l-48" value="Data Manager needs to respond if there are any operations pending, so that device can send connectible advertisment&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="852" width="660" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOxs98dK47Ov6Tr6xc98-1" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="40" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOxs98dK47Ov6Tr6xc98-2" value="" style="verticalLabelPosition=bottom;align=center;outlineConnect=0;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.flow_sensors.flow_nozzle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="45" y="200" width="50" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RVPfXSCKzz2xiG9BvdHr" name="Data Manager">
+    <mxGraphModel dx="794" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="exaQa9JJ01ZnAnkkj_xr-1" value="Data Manager knows whether it is just BLE gateway, or support Wirepas.&amp;nbsp; Only BLE, BLE + Wirepas, Wirepas Only" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="exaQa9JJ01ZnAnkkj_xr-2" value="If just BLE gateway, it needs to scan using both chips and handle traffic at the same time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q7k4f88DNoPHCewY_0DU-1" value="BLE service we write needs to be robust and manageable&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="230" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q7k4f88DNoPHCewY_0DU-2" value="BLE service needs to know when to scan Chip 0 / Chip 1, and when it stop scanning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="260" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q7k4f88DNoPHCewY_0DU-3" value="Need to understand how Cassia using its SSE to capture connectible advertisements" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF6E4A;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jsshmo_ISpm7yV7gEqSC-2" value="Data Manager knows whether its BLE chip (non-Wirepas chip) needs to work on Code PHY or 2M PHY" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="590" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4YHKwaMzP9yuaApxFE7U" name="Page-3">
+    <mxGraphModel dx="794" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="610" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-2" value="Data Manager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w_X6F0pQKOWmFK-SUJ7B-3" target="w_X6F0pQKOWmFK-SUJ7B-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-3" value="BLE Device Manager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_X6F0pQKOWmFK-SUJ7B-4" target="w_X6F0pQKOWmFK-SUJ7B-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-4" value="Cloud Communicator (MQTT Pub/Sub)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_X6F0pQKOWmFK-SUJ7B-5" target="w_X6F0pQKOWmFK-SUJ7B-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-5" value="DBus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-6" value="Wirepas Mesh" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-7" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/intune/Device_Compliance.svg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="62" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-8" value="Wirepas Transport Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-11" value="c8y" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-16" value="BDM sends device data to CC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-17" value="BDM asks for pending operations for given device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-18" value="Convert BLE to JSON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-19" value="Convert JSON to BLE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_X6F0pQKOWmFK-SUJ7B-20" target="w_X6F0pQKOWmFK-SUJ7B-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_X6F0pQKOWmFK-SUJ7B-20" value="thin-edge.io" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XpZ4DdwXBSxn-4lKxU6y" name="Thin-Edge Update">
+    <mxGraphModel dx="794" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
