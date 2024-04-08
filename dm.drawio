@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T20:20:26.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="C-ToncKBO4KSKMpPtFQ4" version="24.2.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-04-08T20:20:48.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XFD1YeC6eclqVCe5N2qo" version="24.2.2" type="github" pages="5">
   <diagram name="BLE Device" id="xohVsvtXSEpIb4WMQ1DA">
     <mxGraphModel dx="1644" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
         <mxCell id="GexKohu7K1llusoqCRSe-48" value="" style="swimlane;startSize=0;" vertex="1" parent="GexKohu7K1llusoqCRSe-9">
           <mxGeometry x="120.96573208722742" y="58" width="318.90965732087227" height="222" as="geometry" />
         </mxCell>
-        <mxCell id="GexKohu7K1llusoqCRSe-105" value="port1" style="fontStyle=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;" vertex="1" parent="GexKohu7K1llusoqCRSe-9">
+        <mxCell id="GexKohu7K1llusoqCRSe-105" value="80" style="fontStyle=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;" vertex="1" parent="GexKohu7K1llusoqCRSe-9">
           <mxGeometry x="60.303738317756995" y="320" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GexKohu7K1llusoqCRSe-13" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.client_application" vertex="1" parent="GexKohu7K1llusoqCRSe-41">
